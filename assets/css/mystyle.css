@@ -1,0 +1,47 @@
+.mybg-primary{
+    background-color: #55237a;
+}
+.mybg-secondary{
+    background-color: #e6e2e3;
+}
+
+.mybg-primary p, .mybg-primary h1, .mybg-primary h2, .mybg-primary h3, .mybg-primary h4, .mybg-primary h5, .mybg-primary h6,
+.mybg-primary span{
+    color: #fff;
+}
+
+.rounded-top-40 {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.rounded-top-50 {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+/* .faculty-member .border, .faculty-member .border-1, .faculty-member .border-2, .faculty-member .border-3, .faculty-member .border-4, .faculty-member .border-5,
+.faculty-member .rounded-top-40, .faculty-member .rounded-top-50{
+    border-width: 10px;
+    border-color: #fff;
+} */
+
+.secondary-font-color{
+    color: #55237a !important;
+}
+.secondary-font-color-all p, .secondary-font-color-all h1, .secondary-font-color-all h2, .secondary-font-color-all h3, .secondary-font-color-all h4, .secondary-font-color-all h5, .secondary-font-color-all h6,
+.secondary-font-color-all span, .secondary-font-color-all div, .secondary-font-color-all a, .secondary-font-color-all i{
+    color: #55237a !important;
+}
+
+.font-white{
+    color: white;
+}
+
+.padding-b-lg{
+    padding-bottom: 150px;
+}
+
+.maroon-to-purple {
+  /* Step 1: Force image to black / Step 2: Invert & shift to target hex #55237a */
+  filter: brightness(0) saturate(100%) invert(20%) sepia(35%) saturate(3500%) hue-rotate(255deg) brightness(85%) contrast(105%);
+}
