@@ -13848,7 +13848,7 @@ body.index-kid h6 {
 }
 body.index-kid .side-bar button i,
 body.index-kid .mobile-menu-main nav ul li.has-droupdown::after {
-  background: var(--primary-color) !important;
+  /* background: var(--primary-color) !important; */
 }
 body.index-kid .admission-content-top .application-deadline__content table tbody tr {
   border-bottom-color: #FFEBE0;
@@ -16242,7 +16242,7 @@ body.index-kid .admission-content-top .application-deadline__content table {
   margin: 7px 0 !important;
   border-bottom: 1px solid #f3f3f3;
 }
-.mobile-menu-main nav ul li.has-droupdown::after {
+/* .mobile-menu-main nav ul li.has-droupdown::after {
   position: absolute;
   content: "+";
   font-family: var(--fontawesome) !important;
@@ -16255,7 +16255,7 @@ body.index-kid .admission-content-top .application-deadline__content table {
   background: var(--rt-primary-2) !important;
   pointer-events: none;
   cursor: pointer;
-}
+} */
 .mobile-menu-main nav ul li.has-droupdown.mm-active::after {
   content: "\f068";
 }
