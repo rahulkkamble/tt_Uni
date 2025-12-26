@@ -45,3 +45,15 @@
   /* Step 1: Force image to black / Step 2: Invert & shift to target hex #55237a */
   filter: brightness(0) saturate(100%) invert(20%) sepia(35%) saturate(3500%) hue-rotate(255deg) brightness(85%) contrast(105%);
 }
+
+.myfont-secondary{
+    font-family: "Canela trial" !important;
+}
+
+.font-counter-fix h1, .font-counter-fix h2, .font-counter-fix h3, .font-counter-fix h4,
+.font-counter-fix h1 span, .font-counter-fix h2 span, .font-counter-fix h3 span, .font-counter-fix h4 span{
+    font-size: 4rem !important;
+}
+.font-counter-fix span, .font-counter-fix span span{
+    font-size: 2.2rem !important;
+}
