@@ -1,8 +1,8 @@
 .mybg-primary{
-    background-color: #55237a;
+    background-color: #55237a !important;
 }
 .mybg-secondary{
-    background-color: #e6e2e3;
+    background-color: #e6e2e3 !important;
 }
 
 .mybg-primary p, .mybg-primary h1, .mybg-primary h2, .mybg-primary h3, .mybg-primary h4, .mybg-primary h5, .mybg-primary h6,
@@ -34,7 +34,7 @@
 }
 
 .font-white{
-    color: white;
+    color: white !important;
 }
 
 .padding-b-lg{
@@ -56,4 +56,8 @@
 }
 .font-counter-fix span, .font-counter-fix span span{
     font-size: 2.2rem !important;
+}
+
+.z-top{
+    z-index: 10 !important;
 }
