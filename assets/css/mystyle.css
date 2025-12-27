@@ -61,3 +61,7 @@
 .z-top{
     z-index: 10 !important;
 }
+
+.banner .banner__content--description{
+    max-width: 660px;
+}
