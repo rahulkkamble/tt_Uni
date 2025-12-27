@@ -146,3 +146,7 @@
         padding-top: 50px;
     }
 }
+
+p.description{
+    text-align: justify;
+}
