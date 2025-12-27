@@ -1,22 +1,30 @@
-.mybg-primary{
+.mybg-primary {
     background-color: #55237a !important;
 }
-.mybg-secondary{
+
+.mybg-secondary {
     background-color: #e6e2e3 !important;
 }
 
-.mybg-primary p, .mybg-primary h1, .mybg-primary h2, .mybg-primary h3, .mybg-primary h4, .mybg-primary h5, .mybg-primary h6,
-.mybg-primary span{
+.mybg-primary p,
+.mybg-primary h1,
+.mybg-primary h2,
+.mybg-primary h3,
+.mybg-primary h4,
+.mybg-primary h5,
+.mybg-primary h6,
+.mybg-primary span {
     color: #fff;
 }
 
 .rounded-top-40 {
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
+
 .rounded-top-50 {
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 /* .faculty-member .border, .faculty-member .border-1, .faculty-member .border-2, .faculty-member .border-3, .faculty-member .border-4, .faculty-member .border-5,
@@ -25,43 +33,91 @@
     border-color: #fff;
 } */
 
-.secondary-font-color{
-    color: #55237a !important;
-}
-.secondary-font-color-all p, .secondary-font-color-all h1, .secondary-font-color-all h2, .secondary-font-color-all h3, .secondary-font-color-all h4, .secondary-font-color-all h5, .secondary-font-color-all h6,
-.secondary-font-color-all span, .secondary-font-color-all div, .secondary-font-color-all a, .secondary-font-color-all i{
+.secondary-font-color {
     color: #55237a !important;
 }
 
-.font-white{
+.secondary-font-color-all p,
+.secondary-font-color-all h1,
+.secondary-font-color-all h2,
+.secondary-font-color-all h3,
+.secondary-font-color-all h4,
+.secondary-font-color-all h5,
+.secondary-font-color-all h6,
+.secondary-font-color-all span,
+.secondary-font-color-all div,
+.secondary-font-color-all a,
+.secondary-font-color-all i {
+    color: #55237a !important;
+}
+
+.font-white {
     color: white !important;
 }
 
-.padding-b-lg{
+.padding-b-lg {
     padding-bottom: 150px;
 }
 
 .maroon-to-purple {
-  /* Step 1: Force image to black / Step 2: Invert & shift to target hex #55237a */
-  filter: brightness(0) saturate(100%) invert(20%) sepia(35%) saturate(3500%) hue-rotate(255deg) brightness(85%) contrast(105%);
+    /* Step 1: Force image to black / Step 2: Invert & shift to target hex #55237a */
+    filter: brightness(0) saturate(100%) invert(20%) sepia(35%) saturate(3500%) hue-rotate(255deg) brightness(85%) contrast(105%);
 }
 
-.myfont-secondary{
+.myfont-secondary {
     font-family: "Canela trial" !important;
 }
 
-.font-counter-fix h1, .font-counter-fix h2, .font-counter-fix h3, .font-counter-fix h4,
-.font-counter-fix h1 span, .font-counter-fix h2 span, .font-counter-fix h3 span, .font-counter-fix h4 span{
+.font-counter-fix h1,
+.font-counter-fix h2,
+.font-counter-fix h3,
+.font-counter-fix h4,
+.font-counter-fix h1 span,
+.font-counter-fix h2 span,
+.font-counter-fix h3 span,
+.font-counter-fix h4 span {
     font-size: 4rem !important;
 }
-.font-counter-fix span, .font-counter-fix span span{
+
+.font-counter-fix span,
+.font-counter-fix span span {
     font-size: 2.2rem !important;
 }
 
-.z-top{
+.z-top {
     z-index: 10 !important;
 }
 
-.banner .banner__content--description{
+.banner .banner__content--description {
     max-width: 660px;
+}
+
+.padding-x-100 {
+    padding: 0 100px;
+}
+
+.new-section-padding {
+    padding: 50px 0;
+}
+
+@media (max-width: 767px) {
+    .padding-x-100 {
+        padding: 0 50px;
+    }
+
+    .mobile_gap--55 {
+        gap: 50px 0;
+    }
+
+    .new-section-padding {
+        padding: 20px 0;
+    }
+}
+
+.plr_lg--80 {
+    padding: 0 80px !important;
+}
+
+.ptb_lg--80 {
+    padding: 80px 0 !important;
 }
