@@ -57,13 +57,9 @@
                                         <li class="navigation__menu--item ">
                                             <a href="core-team.html" class="navigation__menu--item__link">Core Team</a>
                                         </li>
-
-                                        <li class="navigation__menu--item ">
-                                            <a href="javascript:void(0);" class="navigation__menu--item__link">About
-                                                Us</a>
-                                        </li>
                                         <li class="navigation__menu--item has-child has-arrow">
-                                            <a href="javascript:void(0);" class="navigation__menu--item__link">Commitees</a>
+                                            <a href="javascript:void(0);"
+                                                class="navigation__menu--item__link">Commitees</a>
                                             <ul class="submenu sub__style">
                                                 <li><a href='committee-ccc.html'>CCC</a></li>
                                                 <li><a href='committee-DISEC.html'>DISEC</a></li>
@@ -72,32 +68,22 @@
                                             </ul>
                                         </li>
                                         <li class="navigation__menu--item ">
-                                            <a href="#" class="navigation__menu--item__link">Register Now</a>
+                                            <a href="javascript:void(0);" class="navigation__menu--item__link">Schedule</a>
                                         </li>
-                                        <li class="navigation__menu--item">
-                                            <a class='navigation__menu--item__link' href='javascript:void(0);'>Contact Us</a>
+                                        <li class="navigation__menu--item has-child has-arrow">
+                                            <a href="javascript:void(0);" class="navigation__menu--item__link">Register Now</a>
+                                            <ul class="submenu sub__style">
+                                                <li><a target="_blank" href='http://docs.google.com/forms/d/1SWEPLrpYLD-05aDkGIvvxM5ORb8IMtKQK5n6weueAGc/edit?usp=sharing_eil&ts=6947df54'>JBCN Chembur Delegate</a></li>
+                                                <li><a target="_blank" href='https://docs.google.com/forms/d/e/1FAIpQLSfZt_wfR5RqWt8KAT-GtGKbq_522s6QFkSqDrXmD2yFKL-ycg/viewform?usp=header'>External Delegate</a></li>
+                                            </ul>
                                         </li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
-                        <div class="header__right">
+                        <div class="header__right  d-block d-lg-none">
+                            
                             <div class="header__right--item">
-                                <div id="langSwitcher" class="lang__trigger">
-                                    <span class="selected__lang">English</span>
-                                    <i class="fa-light fa-globe"></i>
-                                    <div class="translate__lang">
-                                        <ul>
-                                            <li><a href="#" class="active">English</a></li>
-                                            <li><a href="#">French</a></li>
-                                            <li><a href="#">Spanish</a></li>
-                                            <li><a href="#">Romanian</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div id="search-btn" class="search__trigger">
-                                    <i class="fa-sharp fa-light fa-magnifying-glass"></i>
-                                </div>
                                 <div id="menu-btn" class="menu__trigger">
                                     <img class="maroon-to-purple" src="assets/images/icon/menu__bar.svg" alt="bar">
                                 </div>
@@ -110,8 +96,7 @@
     </header>
     <!-- header area end -->
     <!-- BREADCRUMB AREA -->
-    <section class="rts-breadcrumb breadcrumb-height breadcumb-bg"
-        style="background-image: url(assets/images/banner/breadcrumb.jpg);">
+    <section class="rts-breadcrumb breadcrumb-height breadcumb-bg banner-bg-before mybg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -187,8 +172,8 @@
                             </div>
                             <div class="faculty-member__info mybg-primary">
                                 <h2 class="mb-0">Orhan Khan</h2>
-                                <div class="email-contact font-white">Co-Secretary General</div>
-                                <div class="faculty-member__info--social font-white mb-0">
+                                <div class="email-contact font-white pb-3">Co-Secretary General</div>
+                                <div class="d-none faculty-member__info--social font-white mb-0">
                                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                                     <a href="#"><i class="fa-brands fa-medium"></i></a>
@@ -244,8 +229,8 @@
                             </div>
                             <div class="faculty-member__info mybg-primary">
                                 <h2 class="mb-0">Dhriyaan Rajesh</h2>
-                                <div class="email-contact font-white">Co-Secretary General</div>
-                                <div class="faculty-member__info--social font-white mb-0">
+                                <div class="email-contact font-white pb-3">Co-Secretary General</div>
+                                <div class="d-none faculty-member__info--social font-white mb-0">
                                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                                     <a href="#"><i class="fa-brands fa-medium"></i></a>
@@ -340,10 +325,12 @@
                         <div class="rts-footer-menu">
                             <ul>
                                 <li><a href='index.html'>Home</a></li>
-                                <li><a href='#'>About Us</a></li>
-                                <li><a href='#'>Commitees</a></li>
-                                <li><a href="#">Register Now</a></li>
-                                <li><a href='#'>Contact Us</a></li>
+                                <li><a href='core-team.html'>Core Team</a></li>
+                                <li><a href="committee-ccc.html">Committee CCC</a></li>
+                                <li><a href="committee-DISEC.html">Committee DISEC</a></li>
+                                <li><a href="committee-HUNSC.html">Committee HUNSC</a></li>
+                                <li><a href="committee-UNODC.html">Committee UNODC</a></li>
+                                <li><a href="schedule.html">Schedule</a></li>
                             </ul>
                         </div>
                     </div>
@@ -407,20 +394,25 @@
                 <ul class="mainmenu metismenu" id="mobile-menu-active">
 
                     <li class="has-droupdown">
-                        <a href="#" class="main">Home</a>
+                        <a href="index.html" class="main">Home</a>
                     </li>
                     <li class="has-droupdown">
-                        <a href="#" class="main">About Us</a>
+                        <a href="core-team.html" class="main">Core Team</a>
                     </li>
                     <li class="has-droupdown">
-                        <a href="#" class="main">Commitees</a>
-                    </li>
-
-                    <li class="has-droupdown">
-                        <a href="#" class="main">Register Now</a>
+                        <a href="committee-ccc.html" class="main">Committee CCC</a>
                     </li>
                     <li class="has-droupdown">
-                        <a href="#" class="main">Contact Us</a>
+                        <a href="committee-DISEC.html" class="main">Committee DISEC</a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="committee-HUNSC.html" class="main">Committee HUNSC</a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="committee-UNODC.html" class="main">Committee UNODC</a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="schedule.html" class="main">Schedule</a>
                     </li>
                 </ul>
             </nav>
