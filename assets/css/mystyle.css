@@ -142,11 +142,22 @@
         top: 0%;
         left: 0%;
     }
-    .mobile-padding{
+
+    .mobile-padding {
         padding-top: 50px;
     }
 }
 
-p.description{
+p.description {
     text-align: justify;
+}
+
+.rts-breadcrumb.mybg-primary.breadcrumb-height::before {
+    background: none;
+}
+
+.w--520px {
+    width: 520px;
+    height: 320px;
+    object-fit: cover;
 }
