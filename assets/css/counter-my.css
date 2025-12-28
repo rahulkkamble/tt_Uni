@@ -44,9 +44,9 @@
   .others5-section-area .cta-counter-box {
     margin: auto;
     margin-bottom: 50px;
-    width: 150px;
-    height: 150px;
-    padding: 20px;
+    width: 130px;
+    height: 130px;
+    padding: 15px;
   }
 }
 
@@ -108,12 +108,18 @@
 
   .others5-section-area .cta-counter-box .elements23 {
     position: absolute;
-    left: -15px;
-    top: -15px;
-    width: 180px;
-    height: 180px;
-    max-width: 180px;
-    max-height: 180px;
+    left: -10px;
+    top: -10px;
+    width: 150px;
+    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .others5-section-area .cta-counter-box h1 span, .others5-section-area .cta-counter-box h2 span, .others5-section-area .cta-counter-box h3 span, .others5-section-area .cta-counter-box h4 span {
+    font-size: 2rem !important;
+  }
+  .others5-section-area .cta-counter-box .time-value span{
+    margin-top: 0;
   }
 }
 
